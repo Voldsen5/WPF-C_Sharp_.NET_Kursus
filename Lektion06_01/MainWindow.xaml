@@ -1,0 +1,14 @@
+﻿<Window x:Class="Lektion06_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lektion06_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Knap1" Content="Stor Knap" HorizontalAlignment="Left" Height="76" Margin="10,10,0,0" VerticalAlignment="Top" Width="232" Background="Green" Click="Knap1_Click"/>
+        <CheckBox x:Name="checkBox1" Content="Vis Knap" HorizontalAlignment="Left" Height="20" Margin="10,113,0,0" VerticalAlignment="Top" Width="219" Checked="checkBox1_Checked" Unchecked="checkBox1_Unchecked"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lektion06_06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lektion06_06"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button x:Name="West" DockPanel.Dock="Left" Click="West_Click">West</Button>
+        <Button x:Name="North" DockPanel.Dock="Top" Click="North_Click">North</Button>
+        <Button x:Name="East" DockPanel.Dock="Right" Click="East_Click">East</Button>
+        <Button x:Name="South" DockPanel.Dock="Bottom" Click="South_Click">South</Button>
+        <TextBox x:Name="textBox" TextWrapping="Wrap" Text=""  Width="42" TextAlignment="Center"/>
+        
+    </DockPanel>
+</Window>

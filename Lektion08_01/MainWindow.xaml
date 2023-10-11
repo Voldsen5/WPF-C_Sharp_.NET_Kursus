@@ -1,0 +1,14 @@
+﻿<Window x:Class="Lektion08_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lektion08_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Center" Height="97" Margin="0,185,0,0" VerticalAlignment="Top" Width="133" Click="button_Click"/>
+        <ListBox x:Name="BilListe" HorizontalAlignment="Left" Height="199" Margin="10,225,0,0" VerticalAlignment="Top" Width="268" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <ListBox x:Name="Firmaliste" HorizontalAlignment="Left" Height="207" Margin="10,10,0,0" VerticalAlignment="Top" Width="268" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    </Grid>
+</Window>
